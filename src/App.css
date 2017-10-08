@@ -1,0 +1,104 @@
+/* Header */
+
+header {
+    background-color: #039be5;
+    color: #fafafa;
+    font-family: 'Francois One', sans-serif;
+    padding: 40px 0;
+}
+
+@media (min-width: 500px) {
+    .header {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.header-title {
+    flex: 1;
+}
+
+.header-title > h1 {
+    margin-top: 0;
+    font-size: 3.4em;
+}
+
+.header-title > span {
+    font-size: 2em;
+}
+
+.header-links {
+    justify-self: flex-end;
+}
+
+.header-icon {
+    font-size: 3em;
+    margin: 15px;
+    color: #fafafa;
+    transition: all 0.5s;
+}
+
+.header-icon:hover {
+    transform: scale(1.3);
+}
+
+/* Sections */
+
+.section > h2 {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    color: #f4511e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Francois One', sans-serif;
+}
+
+/* Projects */
+
+.project {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.project > img {
+    width: 150px;
+    height: auto;
+}
+
+.project > .info {
+    margin-left: 50px;
+}
+
+.project > .info > h3 {
+    font-family: 'Francois One', sans-serif;
+    font-size: 2em;
+}
+
+.project > .info > p {
+    font-size: 1.5em;
+}
+
+.project > .info > a {
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: 0.5s all;
+    color: #039be5;
+    letter-spacing: 1px;
+}
+
+.project > .info > a:hover {
+    color: #027db8;
+}
+
+/* Footer */
+
+footer {
+    background-color: #039be5;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 25px;
+    padding: 25px 0;
+    font-size: 1.3em;
+}

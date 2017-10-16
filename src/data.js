@@ -5,22 +5,54 @@ export const highlights = [
         title: "TamkApp",
         description: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue arcu ut sem porttitor, malesuada blandit libero congue. Ut auctor tincidunt justo, in imperdiet arcu gravida nec. Morbi mattis id nulla non consectetur. Proin fermentum mi ut ipsum molestie viverra. Praesent sit amet egestas nunc, nec auctor mauris. In neque quam, scelerisque in ullamcorper eget, ornare eu ante.</p>,
         image: "https://lh3.googleusercontent.com/oryU380hrpGFAVlLJv0ChaLXMeA8RsBF8Q4jOe_80pg0pxChUpiyqbjilrmiUOuzM5w=w300-rw",
-        link: "https://play.google.com/store/apps/details?id=in.vilik.tamkapp&hl=fi",
-        linkTitle: "Download from Google Play"
+        links: [
+            {
+                title: "Download from Google Play",
+                url: "https://play.google.com/store/apps/details?id=in.vilik.tamkapp&hl=fi"
+            },/*
+            {
+                title: "View source on GitHub",
+                url: "https://github.com/vilikin/tamkapp"
+            }*/
+        ]
     },
     {
         title: "SprintGame",
         description: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue arcu ut sem porttitor, malesuada blandit libero congue. Ut auctor tincidunt justo, in imperdiet arcu gravida nec. Morbi mattis id nulla non consectetur. Proin fermentum mi ut ipsum molestie viverra. Praesent sit amet egestas nunc, nec auctor mauris. In neque quam, scelerisque in ullamcorper eget, ornare eu ante.</p>,
         image: "https://lh3.googleusercontent.com/0cMd39CthY8fQ_ZIn07XRLA-m3UA44kqmIl5nKOmBDxvuyA8y_eSoyQuS_Hcq8G6qQ=w300-rw",
-        link: "http://sprintgame.fi/",
-        linkTitle: "Visit website"
+        links: [
+            {
+                title: "Visit website",
+                url: "http://sprintgame.fi/"
+            },/*
+            {
+                title: "Download from Google Play",
+                url: "https://play.google.com/store/apps/details?id=com.ukkinstituutti.sprintgame&hl=fi"
+            },
+            {
+                title: "Download from AppStore",
+                url: "https://itunes.apple.com/us/app/sprintgame/id1148464080?ls=1&mt=8"
+            }*/
+        ]
     },
     {
         title: "TAMK Events",
         description: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue arcu ut sem porttitor, malesuada blandit libero congue. Ut auctor tincidunt justo, in imperdiet arcu gravida nec. Morbi mattis id nulla non consectetur. Proin fermentum mi ut ipsum molestie viverra. Praesent sit amet egestas nunc, nec auctor mauris. In neque quam, scelerisque in ullamcorper eget, ornare eu ante.</p>,
         image: "https://lh3.googleusercontent.com/BXLS45RLTHYy2DShLmauQ9ks5CTOM4rbdTUWTyCKZIMur07o8XD06YmQVUkICamD8D82=w300-rw",
-        link: "http://sprintgame.fi/",
-        linkTitle: "Visit website"
+        links: [
+            {
+                title: "Visit website",
+                url: "http://tamkevents.com/"
+            },/*
+            {
+                title: "Download from Google Play",
+                url: "https://play.google.com/store/apps/details?id=com.tamkevents.app"
+            },
+            {
+                title: "Download from AppStore",
+                url: "https://itunes.apple.com/us/app/tamk-events/id1200744947?mt=8"
+            }*/
+        ]
     }
 ];
 

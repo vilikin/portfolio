@@ -44,6 +44,10 @@ header {
 
 /* Sections */
 
+.section {
+    margin-top: 25px;
+}
+
 .section > h2 {
     font-size: 2.2em;
     text-transform: uppercase;
@@ -86,6 +90,8 @@ header {
     transition: 0.5s all;
     color: #039be5;
     letter-spacing: 1px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 .project > .info > a:hover {

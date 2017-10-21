@@ -7,8 +7,8 @@ export default (props) => (
             <h3>{props.title}</h3>
             {props.description}
             {
-                props.links.map(link => (
-                    <a href={link.url} target="_blank"><i className="fa fa-link link-icon"/> {link.title}</a>
+                props.links.map((link, i) => (
+                    <a key={i} href={link.url} target="_blank"><i className="fa fa-chevron-right link-icon"/> {link.title}</a>
                 ))
             }
         </div>

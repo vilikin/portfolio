@@ -44,7 +44,9 @@ class App extends Component {
                     <hr className="large"/>
 
                     <Section header="Got any questions?">
-                        Feel free to drop me an email at <a href="mailto:vili.kinnunen1@gmail.com">vili.kinnunen1@gmail.com</a>.
+                        <div className="more">
+                            You can contact me via email at: vili.kinnunen1<i className="fa fa-at"/>gmail.com.
+                        </div>
                     </Section>
                 </div>
 

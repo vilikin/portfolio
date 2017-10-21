@@ -3,8 +3,13 @@ import React from 'react'
 export const highlights = [
     {
         title: "TamkApp",
-        description: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue arcu ut sem porttitor, malesuada blandit libero congue. Ut auctor tincidunt justo, in imperdiet arcu gravida nec. Morbi mattis id nulla non consectetur. Proin fermentum mi ut ipsum molestie viverra. Praesent sit amet egestas nunc, nec auctor mauris. In neque quam, scelerisque in ullamcorper eget, ornare eu ante.</p>,
-        image: "https://lh3.googleusercontent.com/oryU380hrpGFAVlLJv0ChaLXMeA8RsBF8Q4jOe_80pg0pxChUpiyqbjilrmiUOuzM5w=w300-rw",
+        description:
+            <p>
+                TamkApp is a native Android application built with Java.
+                It brings everything that a student really needs into one app: school menu and timetable.
+                The app also allows students to add important deadlines and exams on the timetable.
+            </p>,
+        image: require('./tamkapp.png'),
         links: [
             {
                 title: "Download from Google Play",
@@ -18,8 +23,14 @@ export const highlights = [
     },
     {
         title: "SprintGame",
-        description: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue arcu ut sem porttitor, malesuada blandit libero congue. Ut auctor tincidunt justo, in imperdiet arcu gravida nec. Morbi mattis id nulla non consectetur. Proin fermentum mi ut ipsum molestie viverra. Praesent sit amet egestas nunc, nec auctor mauris. In neque quam, scelerisque in ullamcorper eget, ornare eu ante.</p>,
-        image: "https://lh3.googleusercontent.com/0cMd39CthY8fQ_ZIn07XRLA-m3UA44kqmIl5nKOmBDxvuyA8y_eSoyQuS_Hcq8G6qQ=w300-rw",
+        description:
+            <p>
+                SprintGame is a sports tournament for classrooms.
+                The teacher can start a tournament in a desktop browser and students can join in with their mobile devices.
+                The game utilizes phone's accelerometer and gyroscope to track the students' movement.
+                SprintGame started out as a school project for UKK-institute, and has now been downloaded over 25 000 times.
+            </p>,
+        image: require('./sprintgame.png'),
         links: [
             {
                 title: "Visit website",
@@ -37,8 +48,12 @@ export const highlights = [
     },
     {
         title: "TAMK Events",
-        description: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue arcu ut sem porttitor, malesuada blandit libero congue. Ut auctor tincidunt justo, in imperdiet arcu gravida nec. Morbi mattis id nulla non consectetur. Proin fermentum mi ut ipsum molestie viverra. Praesent sit amet egestas nunc, nec auctor mauris. In neque quam, scelerisque in ullamcorper eget, ornare eu ante.</p>,
-        image: "https://lh3.googleusercontent.com/BXLS45RLTHYy2DShLmauQ9ks5CTOM4rbdTUWTyCKZIMur07o8XD06YmQVUkICamD8D82=w300-rw",
+        description:
+            <p>
+                TAMK Events is an event management system developed for the Students' Union of Tampere University of Applied Sciences.
+                The system consists of a cross-platform mobile app, an event organizer interface and an API.
+            </p>,
+        image: require('./tamkevents.png'),
         links: [
             {
                 title: "Visit website",
@@ -62,13 +77,13 @@ export const expertise = [
         description: <p>In the recent years I've fallen in love with mobile app development.
             I started out with hybrid apps using <strong>Ionic</strong> framework,
             then transitioned into <strong>native Android</strong> apps using <strong>Java</strong>,
-            and now I've been tinkering with <strong>React Native</strong> a bit,
+            and now I've been tinkering with <strong>React Native</strong>,
             and so far it seems pretty awesome.</p>
     },
     {
         title: "Web",
         description: <p>I've been into web development since I was a kid.
-            I started out with basic <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> and <span className="php">PHP</span> about 10 years ago.
+            I started out with basic <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> and PHP about 10 years ago.
             Those days are gone now, and nowadays I create my web apps mostly using <strong>React</strong> and <strong>Redux.</strong></p>
     },
     {

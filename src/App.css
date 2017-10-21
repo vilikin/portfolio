@@ -49,7 +49,9 @@ header {
 }
 
 .section > h2 {
-    font-size: 2.2em;
+    margin: 40px 0;
+    text-align: center;
+    font-size: 2.4em;
     text-transform: uppercase;
     color: #f4511e;
     font-weight: bold;
@@ -57,26 +59,38 @@ header {
     font-family: 'Francois One', sans-serif;
 }
 
+hr {
+    margin: 40px 0;
+}
+
 /* Projects */
 
 .project {
     display: flex;
     align-items: center;
-    margin: 15px 0;
+    margin: 40px 0;
 }
 
 .project > img {
-    width: 150px;
-    height: auto;
+    display: none;
 }
 
-.project > .info {
-    margin-left: 50px;
+@media (min-width: 768px) {
+    .project > img {
+        display: block;
+        width: 150px;
+        height: auto;
+    }
+
+    .project > .info {
+        margin-left: 50px;
+    }
 }
 
 .project > .info > h3 {
     font-family: 'Francois One', sans-serif;
     font-size: 2em;
+    margin-top: 0;
 }
 
 .project > .info > p {
@@ -96,6 +110,40 @@ header {
 
 .project > .info > a:hover {
     color: #027db8;
+}
+
+/* Expertise */
+
+
+.expertise {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .expertise {
+        display: flex;
+    }
+}
+
+.expertise:first-of-type {
+    margin-top: 40px;
+}
+
+.expertise-title {
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.7em;
+    flex: 0 0 200px;
+}
+
+.expertise-description {
+    font-size: 1.5em;
+}
+
+/* More information */
+
+.more {
+    text-align: center;
+    font-size: 1.5em;
 }
 
 /* Footer */
